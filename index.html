@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Crepúsculo-Lua Nova</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em Lua Nova, Bella Swan passa por uma intensa jornada emocional após ser abandonada por Edward Cullen e sua família. Os principais acontecimentos em sua vida são: 
+                O Acidente e a Partida de Edward: Durante sua festa de 18 anos na casa dos Cullen, Bella sofre um pequeno corte com papel. A visão do sangue é insuportável para Jasper e, temendo pela segurança de Bella, Edward decide que todos devem ir embora de Forks. Ele a abandona, dizendo que não a ama mais, para convencê-la a seguir em frente com uma vida humana normal.
+                Depressão e Isolamento: A partida de Edward deixa Bella em um estado de profunda depressão e isolamento por meses. Ela se afasta dos amigos e vive em um estado de dormência emocional, sentindo um "buraco profundo no peito".
+                Aproximação com Jacob Black: Em busca de uma "brecha" para preencher o vazio deixado por Edward, Bella se aproxima de seu amigo de infância, Jacob Black. Eles consertam motos juntos e desenvolvem uma forte amizade. Bella descobre que a adrenalina e o perigo a fazem sentir a presença (em visões ou alucinações) de Edward, o que a leva a se arriscar cada vez mais, como pular de um penhasco.
+                A Descoberta dos Lobisomens: Bella descobre que Jacob e outros jovens da tribo Quileute são, na verdade, lobisomens, antigos rivais dos vampiros. Apesar de aterrorizada inicialmente, ela aceita a nova realidade e a amizade com Jacob se aprofunda, e ela percebe que também o ama, embora de forma diferente de Edward.
+                O Mal-entendido e a Viagem para a Itália: Um mal-entendido trágico ocorre: Alice Cullen tem uma visão de Bella pulando do penhasco e conclui, erroneamente, que ela cometeu suicídio. Edward, ao saber da "morte" de Bella por Rosalie (já que Alice não contou a ele a verdade), decide ir a Volterra, Itália, para provocar os Volturi (o clã vampiro real) a destruí-lo.
+                A Corrida Contra o Tempo e o Reencontro: Alice retorna a Forks e, junto com Bella, corre para a Itália para impedir Edward. Elas chegam a tempo, e Bella consegue evitar que Edward se exponha ao sol em público, o que levaria à sua execução pelos Volturi.
+                O Voto e a Condição: Os Volturi, impressionados com a insistência de Bella em se tornar vampira e sua imunidade aos poderes de controle mental, deixam o trio ir, mas com a condição de que Bella seja transformada em vampira em breve.
+                A Decisão: De volta a Forks, Edward concorda em transformar Bella em vampira, mas apenas se ela concordar em se casar com ele primeiro. A maioria dos Cullen vota a favor da imortalidade de Bella, com exceção de Rosalie e Edward. Bella escolhe Edward e seu destino imortal. 
+            </p>
+            <button class="btn-proximo" data-proximo="1">Forks</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>A jornada de Bella Swan em Lua Nova é marcada pela dor da separação, um período de profunda depressão e, finalmente, a redescoberta da amizade e a tomada de decisões cruciais sobre seu futuro. 
+            </p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
